@@ -1,0 +1,41 @@
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: #F6F5F5;
+}
+
+.logo {
+    width: 100%;
+
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo img {
+    width: 180px;
+    object-fit: cover;
+}
+
+
+.cart_part {
+    background-color: #212a3e;
+
+}
+
+.cart_part .w-90 {
+    width: 90%;
+}
+
+.for_cart_part {
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 150px;
+    background-color: #fff;
+    border-radius: 0.45rem;
+    margin: 0px 6px;
+}

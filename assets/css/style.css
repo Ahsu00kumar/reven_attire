@@ -449,7 +449,7 @@ ol {
 	font-size: 36px;
 	color: #333333;
 	position: absolute;
-	left: 75px;
+	left: 35px;
 	top: 50%;
 	margin-top: -18px;
 	line-height: 29px;
@@ -457,7 +457,7 @@ ol {
 
 .hero__slider.owl-carousel .owl-nav button.owl-next {
 	left: auto;
-	right: 75px;
+	right: 35px;
 }
 .socail_media__under ul{
 	list-style: none;
@@ -3460,7 +3460,7 @@ ol {
 	}
 
 	.hero__slider.owl-carousel .owl-nav button.owl-next {
-		left: 75px;
+		left: 35px;
 		right: 0;
 	}
 

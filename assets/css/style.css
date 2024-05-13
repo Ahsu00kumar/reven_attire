@@ -5,6 +5,7 @@ body {
 	height: 100%;
 	font-family: "Montserrat", sans-serif;
 	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
 }
 
 h1,
@@ -459,18 +460,22 @@ ol {
 	left: auto;
 	right: 35px;
 }
-.socail_media__under ul{
+
+.socail_media__under ul {
 	list-style: none;
 	margin: 0;
 }
-.socail_media__under ul li a i{
-	font-size: 18px ;
+
+.socail_media__under ul li a i {
+	font-size: 18px;
 	color: #fff;
 }
-.socail_media__under ul li a{
+
+.socail_media__under ul li a {
 	padding-top: 0.35rem;
 	padding-bottom: 0.35rem;
 }
+
 .hero__items {
 	height: 650px;
 	padding-top: 210px;

@@ -105,7 +105,7 @@
         <section class="banner spad">
             <div class="container">
                 <div class="row">
-                    
+
                     <div class="col-lg-5 ">
                         <div class="banner__item">
                             <div class="banner__item__pic">
@@ -117,7 +117,7 @@
                             </div>
                         </div>
                     </div>
-<div class="col-1"></div>
+                    <div class="col-1"></div>
                     <div class="col-lg-6">
                         <div class="banner__item banner__item--last">
                             <div class="banner__item__pic">
@@ -130,10 +130,242 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row my-4">
+
+                    <div class="col-lg-6">
+                        <div class="banner__item banner__item--last">
+                            <div class="banner__item__pic">
+                                <img src="assets/images/4.png" alt="Shop now">
+                            </div>
+                            <div class="banner__item__text">
+                                <h2>Shoes Spring 2030</h2>
+                                <a href="#">Shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+
+
+                    <div class="col-lg-5 ">
+                        <div class="banner__item">
+                            <div class="banner__item__pic">
+                                <img src="assets/images/5.png" alt="Shop now">
+                            </div>
+                            <div class="banner__item__text">
+                                <h2>Clothing Collections 2030</h2>
+                                <a href="#">Shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="rounder">
+
+            <style>
+                .rounder {
+                    position: relative;
+                }
+
+                .masker {
+                    z-index: 10;
+                    background-color: #fff;
+                }
+
+                .subheadee {
+                    color: #6c6c6c;
+                    font-weight: 400;
+                }
+
+                .instagram__text1 ul {
+                    list-style: none;
+                    padding-top: 3rem;
+                    text-align: justify;
+                }
+
+                .instagram__text1 h3 {
+                    font-weight: 700;
+                    font-size: 28px;
+                }
+
+                .img_card img {
+                    width: 65px;
+                    height: 65px;
+                    border: 4px solid #fff;
+                    border-radius: 50%;
+                }
+
+                .testimonials_icon {
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    z-index: 0;
+                }
+
+                .img_card1 {
+                    position: relative;
+                    z-index: 1;
+                }
+
+                .img_card2 {
+                    position: relative;
+                    z-index: 2;
+                    margin-left: -25px;
+                }
+
+                .img_card3 {
+                    position: relative;
+                    z-index: 3;
+                    margin-left: -25px;
+                }
+
+                .customer_review {
+                    padding-left: 1rem;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+
+                }
+
+                .customer_review h5 {
+                    font-weight: 700;
+                    padding-bottom: 0.4rem;
+                    font-size: 1rem;
+
+                }
+
+                .customer_review h6 {
+                    font-size: 0.85rem;
+                    font-weight: 400;
+                }
+
+                .customer_review span {
+                    padding-right: 0.35rem;
+                }
+
+                .customer_review span img {
+                    width: 15px;
+
+                }
+
+                .small_text {
+                    font-size: 14px;
+                    color: #6c6c6c;
+                }
+
+                .justify-contain-start {
+                    justify-content: flex-start;
+                    align-items: center;
+                }
+            </style>
+            <div class="rounder_wrap position-relative">
+                <div class="masker position-absolute w-50 bg-white">
+                    <div class="position-absolute w-100 bg-white">
+                        <div class="container">
+                            <div class="ab_content p-5">
+                                <div class="instagram__text1">
+                                    <h3 class="mb-0 pb-2">What our Customer Say About Us </h3>
+                                    <h5 class="subheadee">
+                                        Testimonials
+                                    </h5>
+                                    <ul>
+                                        <li>Lorem ipsum dolor sit amet consectetur. Pellentesque dictumst erat cursus suspendisse eu tempus dolor sit amet consectetur. Pellentesque dictumst erat gravid phasellus.Lorem ipsum dolor sit amet consectetur. Pellentesque dictumst erat cursus suspendisse eu tempus dolor sit amet consectetur. Pellentesque dictumst erat gravid phasellus.</li>
+                                    </ul>
+                                    <div class="d-flex align-items-center">
+                                        <div class="testimonials_icon py-4">
+
+                                            <div class="img_card img_card1">
+                                                <img src="assets/images/90.png" alt="Testimonials">
+                                            </div>
+                                            <div class="img_card img_card2">
+                                                <img src="assets/images/91.png" alt="Testimonials">
+                                            </div>
+                                            <div class="img_card img_card3">
+                                                <img src="assets/images/92.png" alt="Testimonials">
+                                            </div>
+                                        </div>
+                                        <div class="d-flex  customer_review">
+                                            <h5>Customer Review</h5>
+                                            <div class="d-flex justify-contain-start">
+                                                <span><img src="assets/images/star.png" alt="star"></span>
+                                                <span class="small_text"><span>4.6K</span> Review</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="void" id="void">
+                    <div class="crop">
+                        <ul id="card-list" style="--count: 6;">
+                            <li>
+                                <div class="card">
+                                    <div class="banner__item banner__item--last mt-0">
+                                        <div class="banner__item__pic">
+                                            <img src="assets/images/4.png" alt="Shop now">
+                                        </div>
+                                        <div class="banner__item__text">
+                                            <h2>Shoes Spring 2030</h2>
+                                            <a href="#">Shop now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <!-- <div class="card"><a href=""><span class="model-name">Gretel-ACTGAN</span><span>Model for generating highly dimensional, mostly numeric, tabular data</span></a></div> -->
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="banner__item mt-0">
+                                        <div class="banner__item__pic">
+                                            <img src="assets/images/5.png" alt="Shop now">
+                                        </div>
+                                        <div class="banner__item__text">
+                                            <h2>Clothing Collections 2030</h2>
+                                            <a href="#">Shop now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li></li>
+                            <li>
+                                <div class="card">
+                                    <div class="banner__item banner__item--last mt-0">
+                                        <div class="banner__item__pic">
+                                            <img src="assets/images/4.png" alt="Shop now">
+                                        </div>
+                                        <div class="banner__item__text">
+                                            <h2>Shoes Spring 2030</h2>
+                                            <a href="#">Shop now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li></li>
+                            <!-- <li>
+                            <div class="card"><a href=""><span class="model-name">Gretel-ACTGAN</span><span>Model for generating highly dimensional, mostly numeric, tabular data</span></a></div>
+                        </li>
+                        <li>
+                            <div class="card"><a href=""><span class="model-name">Gretel-ACTGAN</span><span>Model for generating highly dimensional, mostly numeric, tabular data</span></a></div>
+                        </li> -->
+                        </ul>
+                        <div class="last-circle"></div>
+                        <div class="second-circle"></div>
+                    </div>
+                    <div class="mask"></div>
+                    <div class="center-circle"></div>
+                    <div>
+                    </div>
+                </div>
+
             </div>
         </section>
     </div>
-
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.nice-select.min.js"></script>
@@ -144,6 +376,8 @@
     <script src="assets/js/mixitup.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/main.js"></script>
+
+
 
 
 </body>

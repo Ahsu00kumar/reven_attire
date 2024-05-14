@@ -13,6 +13,7 @@
 
 <body>
     <div>
+        
         <?php include('include/header.php'); ?>
 
 
@@ -62,7 +63,7 @@
             </div>
         </section>
 
-        <!--  -->
+       
         <section class="socail_media">
             <div class="header__top">
                 <div class="container">
@@ -532,6 +533,7 @@
                 </div>
             </div>
         </section>
+
         <section class="rounder">
 
             <style>
@@ -673,7 +675,9 @@
 
             </div>
         </section>
+
         <?php include('include/footer.php') ?>
+
     </div>
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>

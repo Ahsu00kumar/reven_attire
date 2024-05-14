@@ -102,7 +102,7 @@
             </div>
         </section>
 
-        <section class="banner spad">
+        <section class="banner spad pb-0">
             <div class="container">
                 <div class="row">
 
@@ -162,139 +162,447 @@
 
             </div>
         </section>
+
+
+        <section class="product spad py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center mb-3">
+                        <h2 class="fw-2">Best Products</h2>
+                        <p class="w-50 mx-auto">
+                            Lorem ipsum dolor sit amet consectetur. Pellentesque dictumst erat cursus suspendisse eu tempus dolor sit amet consectetur.
+                        </p>
+                    </div>
+                    <div class="col-lg-12">
+                        <ul class="filter__controls">
+                            <li class="active mixitup-control-active" data-filter="*">Best Sellers</li>
+                            <li data-filter=".new-arrivals" class="">New Arrivals</li>
+                            <li data-filter=".hot-sales" class="">Hot Sales</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row product__filter" id="MixItUp1D0C29" style="">
+
+                    <!-- 1 -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix new-arrivals" style="">
+                        <div class="product__item">
+                            <div class="product__item__pic set-bg" data-setbg="assets/images/product/1.png" style="background-image: url(&quot;assets/images/product/1.png&quot;);">
+                                <span class="label">New</span>
+                                <ul class="product__hover">
+                                    <li>
+                                        <a href="#"><img src="assets/images/heart.png" alt="heart"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/compare.png" alt="compare">
+                                            <span>Compare</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/search.png" alt="search"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__item__text">
+                                <h6>Girl Hot Jacket </h6>
+                                <a href="#" class="add-cart">+ Add To Cart</a>
+                                <div class="rating">
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <h5>Rs. 67.24</h5>
+                                <div class="product__color__select">
+                                    <label for="pc-1">
+                                        <input type="radio" id="pc-1">
+                                    </label>
+                                    <label class="active black" for="pc-2">
+                                        <input type="radio" id="pc-2">
+                                    </label>
+                                    <label class="grey" for="pc-3">
+                                        <input type="radio" id="pc-3">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix hot-sales" style="">
+                        <div class="product__item">
+                            <div class="product__item__pic set-bg" data-setbg="assets/images/product/2.png" style="background-image: url(&quot;assets/images/product/2.png&quot;);">
+                                <ul class="product__hover">
+                                    <li>
+                                        <a href="#"><img src="assets/images/heart.png" alt="heart"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/compare.png" alt="compare">
+                                            <span>Compare</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/search.png" alt="search"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__item__text">
+                                <h6>Girl Hot Jacket </h6>
+                                <a href="#" class="add-cart">+ Add To Cart</a>
+                                <div class="rating">
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <h5>Rs. 67.24</h5>
+                                <div class="product__color__select">
+                                    <label for="pc-4">
+                                        <input type="radio" id="pc-4">
+                                    </label>
+                                    <label class="active black" for="pc-5">
+                                        <input type="radio" id="pc-5">
+                                    </label>
+                                    <label class="grey" for="pc-6">
+                                        <input type="radio" id="pc-6">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix new-arrivals" style="">
+                        <div class="product__item sale">
+                            <div class="product__item__pic set-bg" data-setbg="assets/images/product/3.png" style="background-image: url(&quot;assets/images/product/3.png&quot;);">
+                                <span class="label">Sale</span>
+                                <ul class="product__hover">
+                                    <li>
+                                        <a href="#"><img src="assets/images/heart.png" alt="heart"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/compare.png" alt="compare">
+                                            <span>Compare</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/search.png" alt="search"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__item__text">
+                                <h6>Multi-pocket Shirt</h6>
+                                <a href="#" class="add-cart">+ Add To Cart</a>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <h5>Rs. 43.48</h5>
+                                <div class="product__color__select">
+                                    <label for="pc-7">
+                                        <input type="radio" id="pc-7">
+                                    </label>
+                                    <label class="active black" for="pc-8">
+                                        <input type="radio" id="pc-8">
+                                    </label>
+                                    <label class="grey" for="pc-9">
+                                        <input type="radio" id="pc-9">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4 -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix hot-sales" style="">
+                        <div class="product__item">
+                            <div class="product__item__pic set-bg" data-setbg="assets/images/product/4.png" style="background-image: url(&quot;assets/images/product/4.png&quot;);">
+                                <ul class="product__hover">
+                                    <li>
+                                        <a href="#"><img src="assets/images/heart.png" alt="heart"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/compare.png" alt="compare">
+                                            <span>Compare</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/search.png" alt="search"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__item__text">
+                                <h6>Diagonal Textured Cap</h6>
+                                <a href="#" class="add-cart">+ Add To Cart</a>
+                                <div class="rating">
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <h5>Rs. 60.9</h5>
+                                <div class="product__color__select">
+                                    <label for="pc-10">
+                                        <input type="radio" id="pc-10">
+                                    </label>
+                                    <label class="active black" for="pc-11">
+                                        <input type="radio" id="pc-11">
+                                    </label>
+                                    <label class="grey" for="pc-12">
+                                        <input type="radio" id="pc-12">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5 -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix new-arrivals" style="">
+                        <div class="product__item">
+                            <div class="product__item__pic set-bg" data-setbg="assets/images/product/5.png" style="background-image: url(&quot;assets/images/product/5.png&quot;);">
+                                <ul class="product__hover">
+                                    <li>
+                                        <a href="#"><img src="assets/images/heart.png" alt="heart"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/compare.png" alt="compare">
+                                            <span>Compare</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/search.png" alt="search"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__item__text">
+                                <h6>Lether Jacket</h6>
+                                <a href="#" class="add-cart">+ Add To Cart</a>
+                                <div class="rating">
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <h5>Rs. 31.37</h5>
+                                <div class="product__color__select">
+                                    <label for="pc-13">
+                                        <input type="radio" id="pc-13">
+                                    </label>
+                                    <label class="active black" for="pc-14">
+                                        <input type="radio" id="pc-14">
+                                    </label>
+                                    <label class="grey" for="pc-15">
+                                        <input type="radio" id="pc-15">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6 -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix hot-sales" style="">
+                        <div class="product__item sale">
+                            <div class="product__item__pic set-bg" data-setbg="assets/images/product/6.png" style="background-image: url(&quot;assets/images/product/6.png&quot;);">
+                                <span class="label">Sale</span>
+                                <ul class="product__hover">
+                                    <li>
+                                        <a href="#"><img src="assets/images/heart.png" alt="heart"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/compare.png" alt="compare">
+                                            <span>Compare</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/search.png" alt="search"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__item__text">
+                                <h6>Ankle Girl Dress</h6>
+                                <a href="#" class="add-cart">+ Add To Cart</a>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <h5>Rs. 98.49</h5>
+                                <div class="product__color__select">
+                                    <label for="pc-16">
+                                        <input type="radio" id="pc-16">
+                                    </label>
+                                    <label class="active black" for="pc-17">
+                                        <input type="radio" id="pc-17">
+                                    </label>
+                                    <label class="grey" for="pc-18">
+                                        <input type="radio" id="pc-18">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 7 -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix new-arrivals" style="">
+                        <div class="product__item">
+                            <div class="product__item__pic set-bg" data-setbg="assets/images/product/3.png" style="background-image: url(&quot;assets/images/product/3.png&quot;);">
+                                <ul class="product__hover">
+                                    <li>
+                                        <a href="#"><img src="assets/images/heart.png" alt="heart"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/compare.png" alt="compare">
+                                            <span>Compare</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/search.png" alt="search"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__item__text">
+                                <h6>T-shirt Contrast Pocket</h6>
+                                <a href="#" class="add-cart">+ Add To Cart</a>
+                                <div class="rating">
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <h5>Rs. 49.66</h5>
+                                <div class="product__color__select">
+                                    <label for="pc-19">
+                                        <input type="radio" id="pc-19">
+                                    </label>
+                                    <label class="active black" for="pc-20">
+                                        <input type="radio" id="pc-20">
+                                    </label>
+                                    <label class="grey" for="pc-21">
+                                        <input type="radio" id="pc-21">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 8 -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix hot-sales" style="">
+                        <div class="product__item">
+                            <div class="product__item__pic set-bg" data-setbg="assets/images/product/6.png" style="background-image: url(&quot;assets/images/product/6.png&quot;);">
+                                <ul class="product__hover">
+                                    <li>
+                                        <a href="#"><img src="assets/images/heart.png" alt="heart"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/compare.png" alt="compare">
+                                            <span>Compare</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/search.png" alt="search"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__item__text">
+                                <h6>Basic Flowing Scarf</h6>
+                                <a href="#" class="add-cart">+ Add To Cart</a>
+                                <div class="rating">
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <h5>Rs. 26.28</h5>
+                                <div class="product__color__select">
+                                    <label for="pc-22">
+                                        <input type="radio" id="pc-22">
+                                    </label>
+                                    <label class="active black" for="pc-23">
+                                        <input type="radio" id="pc-23">
+                                    </label>
+                                    <label class="grey" for="pc-24">
+                                        <input type="radio" id="pc-24">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="rounder">
 
             <style>
-                .rounder {
-                    position: relative;
-                }
 
-                .masker {
-                    z-index: 10;
-                    background-color: #fff;
-                }
-
-                .subheadee {
-                    color: #6c6c6c;
-                    font-weight: 400;
-                }
-
-                .instagram__text1 ul {
-                    list-style: none;
-                    padding-top: 3rem;
-                    text-align: justify;
-                }
-
-                .instagram__text1 h3 {
-                    font-weight: 700;
-                    font-size: 28px;
-                }
-
-                .img_card img {
-                    width: 65px;
-                    height: 65px;
-                    border: 4px solid #fff;
-                    border-radius: 50%;
-                }
-
-                .testimonials_icon {
-                    display: flex;
-                    align-items: center;
-                    position: relative;
-                    z-index: 0;
-                }
-
-                .img_card1 {
-                    position: relative;
-                    z-index: 1;
-                }
-
-                .img_card2 {
-                    position: relative;
-                    z-index: 2;
-                    margin-left: -25px;
-                }
-
-                .img_card3 {
-                    position: relative;
-                    z-index: 3;
-                    margin-left: -25px;
-                }
-
-                .customer_review {
-                    padding-left: 1rem;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    justify-content: flex-start;
-
-                }
-
-                .customer_review h5 {
-                    font-weight: 700;
-                    padding-bottom: 0.4rem;
-                    font-size: 1rem;
-
-                }
-
-                .customer_review h6 {
-                    font-size: 0.85rem;
-                    font-weight: 400;
-                }
-
-                .customer_review span {
-                    padding-right: 0.35rem;
-                }
-
-                .customer_review span img {
-                    width: 15px;
-
-                }
-
-                .small_text {
-                    font-size: 14px;
-                    color: #6c6c6c;
-                }
-
-                .justify-contain-start {
-                    justify-content: flex-start;
-                    align-items: center;
-                }
             </style>
             <div class="rounder_wrap position-relative">
                 <div class="masker position-absolute w-50 bg-white">
                     <div class="position-absolute w-100 bg-white">
                         <div class="container">
-                            <div class="ab_content p-5">
-                                <div class="instagram__text1">
-                                    <h3 class="mb-0 pb-2">What our Customer Say About Us </h3>
+                            <div class="categories__deal__countdown shodow-lg p-5">
+                                <span>Deal Of The Week</span>
+                                <h2>Special Offer Applied
+                                    <br>
+                                    shop Now
+                                </h2>
+                                <div class="categories__deal__countdown__timer" id="countdown">
+                                    <div class="cd-item"><span>30</span>
+                                        <p>Days</p>
+                                    </div>
+                                    <div class="cd-item"><span>02</span>
+                                        <p>Hours</p>
+                                    </div>
+                                    <div class="cd-item"><span>28</span>
+                                        <p>Minutes</p>
+                                    </div>
+                                    <div class="cd-item"><span>07</span>
+                                        <p>Seconds</p>
+                                    </div>
+                                </div>
+                                <a href="#" class="primary-btn">Shop now</a>
+                            </div>
+
+                            <div class="ab_content p-5 ">
+                                <div class="instagram__text1 ">
                                     <h5 class="subheadee">
                                         Testimonials
                                     </h5>
+                                    <h3 class="mb-0 pb-2">What our Customer Say <br>About Us </h3>
+
                                     <ul>
-                                        <li>Lorem ipsum dolor sit amet consectetur. Pellentesque dictumst erat cursus suspendisse eu tempus dolor sit amet consectetur. Pellentesque dictumst erat gravid phasellus.Lorem ipsum dolor sit amet consectetur. Pellentesque dictumst erat cursus suspendisse eu tempus dolor sit amet consectetur. Pellentesque dictumst erat gravid phasellus.</li>
+                                        <li>
+                                            <div>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur. Pellentesque dictumst erat cursus suspendisse eu tempus dolor sit amet consectetur. Pellentesque dictumst erat gravid phasellus.Lorem ipsum dolor sit amet consectetur. Pellentesque dictumst erat cursus suspendisse eu tempus dolor sit amet consectetur. Pellentesque dictumst erat gravid phasellus.
+                                                </p>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="testimonials_icon py-4">
+
+                                                        <div class="img_card img_card1">
+                                                            <img src="assets/images/90.png" alt="Testimonials">
+                                                        </div>
+                                                        <div class="img_card img_card2">
+                                                            <img src="assets/images/91.png" alt="Testimonials">
+                                                        </div>
+                                                        <div class="img_card img_card3">
+                                                            <img src="assets/images/92.png" alt="Testimonials">
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex  customer_review">
+                                                        <h5>Customer Review</h5>
+                                                        <div class="d-flex justify-contain-start">
+                                                            <span><img src="assets/images/star.png" alt="star"></span>
+                                                            <span class="small_text"><span>4.6K</span> Review</span>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </li>
                                     </ul>
-                                    <div class="d-flex align-items-center">
-                                        <div class="testimonials_icon py-4">
 
-                                            <div class="img_card img_card1">
-                                                <img src="assets/images/90.png" alt="Testimonials">
-                                            </div>
-                                            <div class="img_card img_card2">
-                                                <img src="assets/images/91.png" alt="Testimonials">
-                                            </div>
-                                            <div class="img_card img_card3">
-                                                <img src="assets/images/92.png" alt="Testimonials">
-                                            </div>
-                                        </div>
-                                        <div class="d-flex  customer_review">
-                                            <h5>Customer Review</h5>
-                                            <div class="d-flex justify-contain-start">
-                                                <span><img src="assets/images/star.png" alt="star"></span>
-                                                <span class="small_text"><span>4.6K</span> Review</span>
-                                            </div>
-                                        </div>
-
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -348,11 +656,11 @@
                             </li>
                             <li></li>
                             <!-- <li>
-                            <div class="card"><a href=""><span class="model-name">Gretel-ACTGAN</span><span>Model for generating highly dimensional, mostly numeric, tabular data</span></a></div>
-                        </li>
-                        <li>
-                            <div class="card"><a href=""><span class="model-name">Gretel-ACTGAN</span><span>Model for generating highly dimensional, mostly numeric, tabular data</span></a></div>
-                        </li> -->
+                <div class="card"><a href=""><span class="model-name">Gretel-ACTGAN</span><span>Model for generating highly dimensional, mostly numeric, tabular data</span></a></div>
+            </li>
+            <li>
+                <div class="card"><a href=""><span class="model-name">Gretel-ACTGAN</span><span>Model for generating highly dimensional, mostly numeric, tabular data</span></a></div>
+            </li> -->
                         </ul>
                         <div class="last-circle"></div>
                         <div class="second-circle"></div>
@@ -365,6 +673,7 @@
 
             </div>
         </section>
+        <?php include('include/footer.php') ?>
     </div>
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
